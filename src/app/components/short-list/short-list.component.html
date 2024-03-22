@@ -1,0 +1,28 @@
+
+<div class="container" style="margin-top: 3rem; padding-right: 25rem; padding-left: 2rem;">
+    <h2>My short List</h2>
+    <table class="table">
+       
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Artist Name</th>
+
+            </tr>
+        </thead>
+        <tbody> 
+             @for (artist of short_artist_array; track $index) { 
+            <tr>
+                <td >
+                    {{"1"}}
+                </td>
+                <td>{{artist}}</td>
+            </tr>
+        } 
+          
+            
+        </tbody>
+
+
+    </table>
+</div>
